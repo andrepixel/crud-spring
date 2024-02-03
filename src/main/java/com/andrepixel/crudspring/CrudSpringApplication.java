@@ -20,6 +20,7 @@ public class CrudSpringApplication {
       repository.deleteAll();
 
       GameEntity gameEntity = new GameEntity();
+     
       gameEntity.setId(1L);
       gameEntity.setName("Halo");
       gameEntity.setCompany("MS");

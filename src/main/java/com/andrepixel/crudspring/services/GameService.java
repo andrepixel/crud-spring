@@ -3,10 +3,8 @@ package com.andrepixel.crudspring.services;
 import com.andrepixel.crudspring.dtos.GameDTO;
 import com.andrepixel.crudspring.entities.GameEntity;
 import com.andrepixel.crudspring.repositories.GameRepository;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
-import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 
 @Service
